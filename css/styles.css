@@ -25,7 +25,7 @@ ul {
   color: var(--title-text-color);
 
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -85,6 +85,8 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /* Секции */
@@ -123,7 +125,6 @@ ul {
   color: var(--title-text-color);
 }
 .team-list .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -159,6 +160,8 @@ ul {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -183,7 +186,6 @@ ul {
 .list-works .type {
   color: var(--main-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
