@@ -52,13 +52,17 @@ ul {
   color: var(--accent-color);
 }
 
-.nav-contact .link {
+.contact .link {
   color: var(--main-text-color);
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-contact .link:hover,
-.nav-contact .link:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
 
@@ -133,6 +137,9 @@ ul {
 /* Подвал */
 .footer {
   background-color: #2f303a;
+}
+.footer .logo {
+  color: var(--primary-white-color);
 }
 .address {
   font-weight: 400;
